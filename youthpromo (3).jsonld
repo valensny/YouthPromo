@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject",
+            "contentUrl": "CIP119:contentUrl",
+            "sha256": "CIP119:sha256"
+          }
+        },
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "youthpromo",
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "",
+      "sha256": "38a9f254246a0e7205818b309888690accdd5df1ea1a4c76c547e3a215ef6617"
+    },
+    "motivations": "I want to use my 20 years of experience as a financial manager in the government sector to provide my input in shaping early functioning power tools for the new blockchain and AI industries. I like that Cardano has a more advanced and established constitution than any other community.\nBesides, I bought my first ADAs in October 2028 and still hold them. I have decided to grow with them in all their development stages until they are mass-adopted.",
+    "objectives": "I am one of the few percent of the world population that has already been introduced to blockchain technology and its impact on various communities. Technology can potentially impact the daily lives of banked and unbanked people. I want to use the Cardano integrated system and its community to study, plan, create, evaluate, and make valuable and profitable investments that generate recurring income for anyone interested in Cardano projects.",
+    "qualifications": "I am an early adopter and believe in Cardano technology, community, and the whole ecosystem. \nI have invested in various Cardano projects, which have helped me learn more about how the ecosystem has the potential to lead the world in the new industry.\nMy education in Technology and Finance, my 20-year experience in financial management, and my own experiences in blockchain technology are a great combination of resources that could help me share my thoughts and vision of how to grow with the Cardano ecosystem.\nI have an MBA degree with a minor in information technology management."
+  }
+}
